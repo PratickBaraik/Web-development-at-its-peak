@@ -1,0 +1,32 @@
+:root {
+  --lighter_blue: #76a0f5;
+  --light_blue: #4085dc;
+  --normal_blue: #2c85b4;
+  --dark_blue: #104588;
+  --darker_blue: #03264e;
+}
+
+/* 
+  sans-serif fonts
+  arial, lato, calibri, helvetica, trebuchet mask
+
+  serif fonts
+  cambria, georgia, garamond, book antiqua, times new roman 
+*/
+
+.left {
+  background-color: var(--darker_blue);
+  max-width: 260px;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px; 
+  background-color: var(--lighter_blue);
+  border: 3px solid var(--lighter_blue);
+  border-radius: 50%;
+  max-width: 200px;
+}
+
